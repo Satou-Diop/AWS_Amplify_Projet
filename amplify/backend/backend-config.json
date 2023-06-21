@@ -23,7 +23,7 @@
     }
   },
   "auth": {
-    "TODO": {
+    "todof14893b8": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
@@ -32,18 +32,11 @@
           "SMS"
         ],
         "passwordProtectionSettings": {
-          "passwordPolicyCharacters": [
-            "REQUIRES_LOWERCASE",
-            "REQUIRES_NUMBERS",
-            "REQUIRES_SYMBOLS",
-            "REQUIRES_UPPERCASE"
-          ],
+          "passwordPolicyCharacters": [],
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "EMAIL",
-          "ADDRESS",
-          "PHONE_NUMBER"
+          "EMAIL"
         ],
         "socialProviders": [],
         "usernameAttributes": [
